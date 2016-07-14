@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#live {
+    height: 100%;
+    width: 100%;
+}
+
+#cv_photo {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0;
+}
+#cv_photo.cv_show {
+    display:block;
+}
+
+#head, #foot {
+    display: flex;
+    height: 10%;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+#foot {
+    bottom: 0;
+    height: 10%;
+    position: fixed;
+}
+#head > div, #foot > div {
+    flex: 1 1 0;
+    font-size: 2em;
+    text-shadow: 0 0 0.5em #fff;
+}
+#head {
+    top: 0;
+}
+
+#lay_menu {
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    background: #fff ;
+}
+#lay_menu > * {
+    width:100%;
+    height:20%;
+}

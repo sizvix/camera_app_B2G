@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+  <body>
+    <!-- mettre les fonction menu , flash , galerie. prendre un photo en affichant un canva . afficher un menu avec des résolutions . mettre le retardateur . mettre l'affichage de la galerie .  -->
+    <video id="live" src="" autoplay muted=true ><a href=# >PLOP</a></video>
+    <canvas id=cv_photo style="displaya:none" ></canvas>
+    <div id=head ><div id=btn_chg_cam >C</div><div id=btn_flash >F</div><div id=btn_param >P</div></div>
+    <div id=foot ><div id=btn_gallery >G</div><div id=btn_photo >P</div><div style="display:none" id=btn_record >R</div><div style="display:none" id=btn_stop >S</div><div id=btn_mode >M</div></div>
+    <div id=lay_menu style="display:none" >
+        <button id=btn_menu_close >Close</button>
+        <label for=menu_timer >Timer :</label><select id=menu_timer >
+            <option value=0 >none</option><option value=2 >2s</option><option value=5 >5s</option><option value=10 >10s</option>
+        </select>
+    </div>
+    <!--div id=nv_obj class=act_btn >+1</div><div id=obj_photo class=act_btn >[]</div><div id=important class=act_btn >/!\</div></div-->
+<div id=relogd ></div>
+<script src=app.js ></script>
+<script src=main.js ></script>
+  </body>
+</html>
